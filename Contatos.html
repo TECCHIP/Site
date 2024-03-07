@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECCHIP - Contatos</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Arquivo CSS para estilos -->
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <!-- Aqui você pode adicionar a sua logo -->
+            <img src="img/logo.png" width="150px"></img>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="Contatos.html">Conheça-nos</a></li>
+                <li><a href="Parceiros.html">Parceiros</a></li>
+            </ul>
+        </nav>
+        <div class="search">
+            <input class="pesquisa" type="text" placeholder=Pesquise>
+            </div>
+    </header>
+    <div class="linha">
+
+    </div>
+    <main>
+        <section class="contatos">
+
+        </div>
+            <h3>Por que escolher a TECCHIP?</h3><br><br><br>
+
+            <p>A TECCHIP é reconhecida pela qualidade de seus produtos e pelo excelente atendimento ao cliente. Nossos processadores são desenvolvidos com tecnologia de ponta e passam por rigorosos testes de qualidade para garantir alto desempenho e confiabilidade.</p>
+            <p>Nossa empresa nasceu da paixão pela tecnologia, quando um grupo de alunos do curso de manutenção e suporte em informática do IFRN campus zona-norte, decidiu desenvolver um projeto para a sala de aula. Esse projeto acabou sendo um sucesso e, com muito esforço e dedicação, transformamos essa ideia em uma empresa de sucesso.</p>
+            <p>Hoje, somos orgulhosamente a primeira empresa nacional a produzir processadores e nosso patrimônio é um reflexo do nosso compromisso com a excelência e inovação.</p>
+        </section>
+        <div class="container">
+            <h1>Conheça nossos Fornecedores</h1><br><br>
+            <ul>
+                <li>
+                    <strong>Delquimica</strong> - Materiais Primas
+                </li>
+                <li>
+                    <strong>ELETROPAULO METROPOLITANA</strong> - Distribuidora de Energia
+                </li>
+                <li>
+                    <strong>SEGURPRO VIGILÂNCIA</strong> - Segurança Industrial
+                </li>
+                <li>
+                    <strong>GUITHA - Tecnologia em Produtos</strong> - Equipamentos e Maquinário
+                </li>
+                <li>
+                    <strong>Bugbusters</strong> - Suporte em TI
+                </li>
+                <li>
+                    <strong>BRW</strong> - Suprimentos
+                </li>
+                <li>
+                    <strong>Itaú</strong> - Fornecedora de Capital
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p> 2024 TECCHIP. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+<style>
+
+h1 {
+    text-align: center;
+}
+.search{
+    
+    position: relative;
+    display: inline-block;
+    border: none;
+    border-radius: 25px;
+}
+.pesquisa{
+    padding-left: 25px; /* Deixe espaço para a imagem */
+    background-image: url('img/lupa.jpg');
+    background-repeat: no-repeat;
+    background-position: 5px center; /* Posiciona a imagem 5px da esquerda e centralizada verticalmente */
+    background-size: 15px 15px; /* Define o tamanho da imagem */
+    color: #000000;
+    border: none;
+    border-radius: 25px;
+    padding: 5px;
+    text-indent: 25px; /* Ajusta o recuo do texto */
+    outline: none;
+}
+
+.search img,.sicon{
+    width: 14px;
+    height: 13px;
+    border: none;
+}
+
+.linha{
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(90deg,#2e0303, rgb(255, 0, 0),#2e0303);
+    border: #000000;
+    border-radius: 20%;
+}
+.container{
+    color: #fff;
+    text-align: center;
+    border:solid white;
+    border-radius: 25px;
+    font-size: 16px; /* Define o tamanho da fonte para os parágrafos */
+    line-height: 1.5; /* Define a altura da linha para os parágrafos */
+    margin-bottom: 20px
+}
+.container li{
+    border: solid white;
+    
+}
+.contatos{
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+   }
+.comprar {
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: #fff;
+    border-radius: 50px;
+    box-shadow: none;
+    outline: 0;
+    border: none;
+}
+.comprar:hover {
+    background-color: darkcyan;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    font-size: 16px; /* Define o tamanho da fonte para os parágrafos */
+    line-height: 1.5; /* Define a altura da linha para os parágrafos */
+    margin-bottom: 20px
+}
+.produtos {
+    margin-bottom: 20px;
+    color: #fff;
+}
+.lista-produtos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.card {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+}
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+header {
+    background: black;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Distribui os elementos horizontalmente */
+    align-items: center;
+    text-align: center;
+}
+.logo img {
+    width: 200px;
+}
+.logo h1 {
+    margin-left: 10px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex; /* Exibe os itens do menu em linha */
+}
+nav ul li {
+    margin-left: 20px;/* Espaçamento entre os itens do menu */
+    padding: 10px; 
+   
+}
+nav ul li:hover{
+    background: linear-gradient(90deg,#000000, rgb(21, 25, 51));
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para o conteúdo principal (main) */
+main {
+    padding: 20px;
+    background-color: #000000;
+}
+
+/* Estilos para o footer */
+footer {
+    background: linear-gradient(to bottom, #333333, #000000);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Regras de mídia para dispositivos de tela pequena (até 768px) */
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column; /* Altera o fluxo dos itens do header para coluna */
+        align-items: center;
+    }
+
+    nav {
+        margin-top: 20px; /* Adiciona espaço entre o header e o menu */
+        flex-direction: column; /* Exibe os itens do menu em coluna */
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0; /* Espaçamento entre os itens do menu */
+    }
+}
+</style>
